@@ -1,0 +1,66 @@
+/* App.css - Global Styles for Client-Admin */
+
+div.body-admin {
+  width: 1000px;
+  min-height: 600px;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+div.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+div.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Menu styling */
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li.menu {
+  display: inline;
+  padding: 0px 10px;
+}
+
+li.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+li.menu a:hover {
+  color: #007bff;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}

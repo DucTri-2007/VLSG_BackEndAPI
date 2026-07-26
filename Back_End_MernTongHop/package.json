@@ -1,0 +1,20 @@
+{
+  "name": "mern-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client-admin\" \"npm run client-customer\"",
+    "server": "npm start --prefix server",
+    "client-admin": "npm start --prefix client-admin",
+    "client-customer": "npm start --prefix client-customer"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.8.0",
+    "nodemailer": "^9.0.3"
+  }
+}
