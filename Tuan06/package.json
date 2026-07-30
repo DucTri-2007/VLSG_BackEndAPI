@@ -1,0 +1,19 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System Module using Node.js, Express, MVC & Service Pattern with JWT Auth",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["nodejs", "express", "mvc", "service-pattern", "jwt", "restful-api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1"
+  }
+}
